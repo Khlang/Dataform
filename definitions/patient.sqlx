@@ -1,0 +1,10 @@
+config {
+  type: "table"
+}
+
+select
+  county_fips_code,
+  county_name,
+  state_name
+from
+  `bigquery-public-data.covid19_public_forecasts.county_14d`
