@@ -3,8 +3,8 @@ config {
 }
 
 select
-  county_fips_code,
-  county_name,
-  state_name
+  date,
+  daily_confirmed_cases,
+  daily_deaths
 from
-  `bigquery-public-data.covid19_public_forecasts.county_14d`
+  `ktproject-352715.crovid_19.covid_19_geographic`
