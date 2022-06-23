@@ -1,0 +1,3 @@
+drop view staging.stg_posts_answers
+---
+drop view staging.stg_posts_questions
